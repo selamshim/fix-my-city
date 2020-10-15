@@ -24,8 +24,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
-            ],
+              {
+                 "input": "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+               },
+               "src/styles.css"
+             ],
             "scripts": []
           },
           "configurations": {
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "my-first-app"
+    }
+  },
+  "defaultProject": "my-first-app",
+  "cli": {
+    "analytics": "319b7aeb-fb46-4b20-9879-b58092c03656"
+  }
 }
